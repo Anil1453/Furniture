@@ -5,33 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Interior Design</title>
   <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <!-- Facebook-style Header -->
+
   <header class="fb-header">
     <div class="logo">Interior</div>
-    <input type="text" placeholder="Search...">
-    <div class="icons">
-      <i class="fas fa-home"></i>
-      <i class="fas fa-bell"></i>
-      <i class="fas fa-user-circle"></i>
+    <input type="text" placeholder="Search..." />
+  
+    <!-- Navigasyon ikonları -->
+    <div class="icons"> 
+      <a href="#hero" class="nav-icon" title="Home"><i class="fas fa-home"></i></a>
+      <a href="#services" class="nav-icon" title="Services"><i class="fas fa-cogs"></i></a>
+      <a href="#contact" class="nav-icon" title="Contact"><i class="fa-solid fa-envelope"></i></a>
     </div>
   </header>
+  
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section class="hero" id="hero">
     <div class="logo-box">
-      <h1>Interior<br><span>Design</span></h1>
+      <h1>Interior<br><span>Design </span></h1>
+      <p1>_________________</p1>
       <p>Company Name</p>
     </div>
     <div class="quote-box">
-      <p>“Featured projects, walk-throughs, products, news, and more...”</p>
+      <p>Featured projects, walk-throughs, products, news, and more from the Spring Homes 2019 issue.
+         Andreas Fuhrimann Gabrielle Hächler Architekten Brings Latin American Modernism to Swiss Villa.
+          Jacques Hervouet Interiors Radically Remakes a Classic Paris Apartment.</p>
     </div>
   </section>
 
-  <section class="services-section">
+  <section class="services-section" id="services">
     <div class="services-content">
       <h2>Our Services</h2>
       <ul>
@@ -60,31 +68,40 @@
     <div class="services-stats-vertical">
       <div class="stat-box">
         <h3>250+</h3>
-        <p>EN 527 Office Furniture</p>
+        <p>EN 527 OFFICE FURNITURE</p>
       </div>
       <div class="stat-box">
         <h3>600m²</h3>
-        <p>Work Tables and Desks</p>
+        <p>WORK TABLES AND DESKS</p>
       </div>
       <div class="stat-box">
         <h3>&gt;80</h3>
-        <p>DIN 4951 Office Furniture</p>
+        <p>DIN 4951 OFFICE FURNITURE</p>
       </div>
       <div class="stat-box">
         <h3>350+</h3>
-        <p>Employees</p>
+        <p>EMPLOYEES</p>
       </div>
     </div>
   </section>
   
 
   <!-- Contact -->
-  <footer class="contact">
+  <footer class="contact" id="contact">
     <h2>Contact</h2>
-    <p>📍 Sofia, Mladost2 | 📞 +359-254-632 | 📧 interior@gmail.com | ☎️ 02/586-584-63</p>
-    <p>📱 0899 584 365 | 👤 Peter Petrov</p>
+    <p>
+      <i class="fa-solid fa-a"></i> Sofia, Mladost2 |
+      <i class="fa-solid fa-t"></i> +359-254-632 |
+      <i class="fa-solid fa-e"></i> interior@gmail.com |
+      <i class="fa-solid fa-n"></i> 02/586-584-63
+    </p>
+    <p>
+      <i class="fa-solid fa-m"></i> 0899 584 365 |
+      <i class="fa-solid fa-n"></i> Peter Petrov
+    </p>
     <input type="email" placeholder="Enter your email address" />
     <button>Get Started</button>
   </footer>
+  
 </body>
 </html>
